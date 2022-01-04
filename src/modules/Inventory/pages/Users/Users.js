@@ -39,6 +39,7 @@ const Users = () => {
   }
 
   function passwordChange(passwordFromprops) {
+    alert("Password changed successfully");
     setAllUsers((prevUsers) => {
       return prevUsers.map((user) =>
         user.password === passwordFromprops
