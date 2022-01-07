@@ -36,7 +36,7 @@ export default function OrderItems() {
 
     const len = rows.length;
     let idx = 0;
-    console.log(rows);
+    console.log(purpose);
     let totalCost = 0;
     for (idx = 0; idx < len; idx++) {
       totalCost += parseInt(rows[idx]["expected_cost"]);
