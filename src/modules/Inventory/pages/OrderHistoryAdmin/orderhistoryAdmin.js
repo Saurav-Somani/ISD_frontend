@@ -54,9 +54,9 @@ export default function OrderHistoryAdmin() {
               <table className="table table-striped table-sm" style={{ width: "100%", height: "100%" }} >
                 <thead className="table__header">
                   <tr>
-                    <th>Sno</th>
-                    <th>OrderDate</th>
-                    <th>TotalCost</th>
+                    <th>S.No</th>
+                    <th>Order Date</th>
+                    <th>Total Cost</th>
                     <th>Status</th>
                     <th className="text-center">Actions</th>
                   </tr>

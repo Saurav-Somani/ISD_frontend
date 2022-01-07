@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { SearchIcon } from "@heroicons/react/solid"
 import "../../common_styles.css";
 import axios from "axios";
 const IssuedItems = () => {
@@ -26,7 +25,7 @@ const IssuedItems = () => {
     })
     setIssuedItems((previtems) => {
       return previtems.filter((items) => {
-        return item._id != items._id;
+        return item._id !== items._id;
       });
     });
   }

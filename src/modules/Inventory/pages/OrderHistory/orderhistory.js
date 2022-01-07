@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { SearchIcon } from "@heroicons/react/solid"
 import "../../common_styles.css";
 import Modal from "../../components/OrderHistoryDetailsModal/OrderHistoryDetailsModal"
 import axios from "axios";

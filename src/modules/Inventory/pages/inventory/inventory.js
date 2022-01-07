@@ -120,7 +120,7 @@ const Inventory = () => {
                       <td>{i + 1}</td>
                       <td>{item.item_name}</td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                        <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-white-800">
                           {item.expected_cost}
                         </span>
                       </td>
@@ -132,7 +132,7 @@ const Inventory = () => {
                       </td>
                     </tr>))}
                 </tbody>
-              </table> : <h2>No items found</h2>}
+              </table> : <h1>No items found</h1>}
           </div>
         </div>
       </div>

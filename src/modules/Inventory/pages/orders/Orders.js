@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../../common_styles.css";
-import { SearchIcon } from "@heroicons/react/solid"
 import Modal from "../../components/OrderDetailsModal/OrderDetailsModal";
 import axios from "axios";
 
@@ -37,7 +36,7 @@ function Orders() {
       alert("Order Rejected!");
       setAllOrders((prevOrders) => {
         return prevOrders.filter((order) => {
-          return order._id != order_id;
+          return order._id !== order_id;
         });
       });
 
@@ -82,7 +81,7 @@ function Orders() {
                       </span>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                      <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-white-800">
                         {order.total_cost}
                       </span>
                     </td>
