@@ -61,9 +61,9 @@ function OrderDetailsModal({ order }) {
                             Department: {orderData.user_id.department}
                             <br />
                             Total Items: {orderData.item_count}
-                            {/* <br />
+                            <br />
                             Purpose : {orderData.remark}
-                            <br /> */}
+                            <br />
                             <ul>
                                 {order.issued_items.map((item) => (
                                     <li>
